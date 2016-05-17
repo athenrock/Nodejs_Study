@@ -205,8 +205,8 @@ app.get("/", function(request, response) { response.render("index", { message: "
  
 参考资料
 
-1. 《understanding-express》
+1. 《understanding-express》(http://evanhahn.com/understanding-express/)
 
-2. 《A short guide to Connect Middleware》
+2. 《A short guide to Connect Middleware》(http://stephensugden.com/middleware_guide/)
 
-3. 《expressjs官方文档》
+3. 《expressjs官方文档》(http://expressjs.com/4x/api.html)
