@@ -13,11 +13,13 @@ var app = express();
 app.set("views", __dirname+'/views');
 
 // 使用jade引擎
-app.set('view engine', 'jade');
+//app.set('view engine', 'jade');
+// 使用html引擎
+app.set('view engine', 'ejs');
 
 //寻址views/index,提交jade渲染，并返回结果
 app.get('/',function (request,response) {
-    response.render("index",{message:"I'm Hyddd"})
+    response.render("index",{message:"I'm a.h" ,title:"test ejs"})
     
 });
 http.createServer(app).listen(1982);
